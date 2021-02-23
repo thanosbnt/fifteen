@@ -1,0 +1,12 @@
+{
+    "name": "fifteen",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "node server.js",
+     	"start:legacy": "nodemon -L --watch express/index.html server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
